@@ -13,7 +13,11 @@ spec:
         app: InternRFC-app-project-user
     spec:
       containers:
-      - name: Project-User-container
+      - name: project-user-container
         image: 533267283761.dkr.ecr.eu-central-1.amazonaws.com/projet-user:latest
         ports:
         - containerPort: 3000
+
+
+
+

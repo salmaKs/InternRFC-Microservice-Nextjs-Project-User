@@ -3,10 +3,9 @@ kind: Service
 metadata:
   name: project-user-service
 spec:
-  type: NodePort
-  ports:
-  - port: 80
-    targetPort: 3000
-    nodePort: 30005
   selector:
     app: InternRFC-app-project-user
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
