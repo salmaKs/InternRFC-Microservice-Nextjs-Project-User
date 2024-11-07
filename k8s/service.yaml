@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: project-user-service
 spec:
+  type: ClusterIP
   selector:
     app: InternRFC-app-project-user
   ports:

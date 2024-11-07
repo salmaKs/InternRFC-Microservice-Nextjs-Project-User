@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: project-user-container
-        image: 533267283761.dkr.ecr.eu-central-1.amazonaws.com/projet-user:latest
+        image: salmak22/projetimage
         ports:
         - containerPort: 3000
 
